@@ -1,0 +1,16 @@
+.env
+node_modules
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.env.development
+.env.test
+.env.production
+package-lock.json
+secret
+secret.txt
+.vscode
+.idea
+dist
