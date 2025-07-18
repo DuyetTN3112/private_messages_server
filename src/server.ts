@@ -62,7 +62,8 @@ setup_socket_server(io, socketStore);
 setup_conversation_monitor(io);
 
 // Kết nối MongoDB và khởi động server
-const SERVER_PORT = process.env.SERVER_PORT;
+const SERVER_PORT = process.env.PORT || process.env.SERVER_PORT || 3000;
+
 const MONGODB_URL = process.env.MONGODB_URL;
 
 if (!MONGODB_URL) {
